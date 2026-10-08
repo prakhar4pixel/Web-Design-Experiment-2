@@ -1,4 +1,4 @@
-/* Simple Modern Beige & Ivory Portfolio Styles */
+/* Modern Cool Teal Portfolio Styles */
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +7,7 @@
 
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  background-color: #fdfbf7;
+  background-color: #f5f9f8;
   color: #2c2825;
   line-height: 1.6;
 }
@@ -18,8 +18,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1.2rem 8%;
-  background: #f4efe6;
-  border-bottom: 1px solid #e6dec8;
+  background: #e8f4f2;
+  border-bottom: 1px solid #c4ddd9;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -32,7 +32,7 @@ body {
 }
 
 .logo span {
-  color: #c87d55;
+  color: #2a9d8f;
 }
 
 .nav-links {
@@ -49,15 +49,15 @@ body {
 }
 
 .nav-links a:hover {
-  color: #c87d55;
+  color: #2a9d8f;
 }
 
 /* Hero Section */
 .hero {
   text-align: center;
   padding: 5rem 1rem;
-  background: linear-gradient(180deg, #f4efe6 0%, #fdfbf7 100%);
-  border-bottom: 1px solid #eae3d2;
+  background: linear-gradient(180deg, #e8f4f2 0%, #f5f9f8 100%);
+  border-bottom: 1px solid #c4ddd9;
 }
 
 .hero h1 {
@@ -67,7 +67,7 @@ body {
 }
 
 .highlight {
-  color: #c87d55;
+  color: #2a9d8f;
 }
 
 .hero p {
@@ -79,7 +79,7 @@ body {
 /* Buttons */
 .btn {
   display: inline-block;
-  background: #c87d55;
+  background: #2a9d8f;
   color: #ffffff;
   padding: 0.75rem 1.8rem;
   border-radius: 6px;
@@ -91,7 +91,7 @@ body {
 }
 
 .btn:hover {
-  background: #b0653d;
+  background: #21867a;
   color: #ffffff;
   transform: translateY(-2px);
 }
@@ -107,7 +107,7 @@ body {
   font-size: 2rem;
   margin-bottom: 1.5rem;
   color: #2c2825;
-  border-bottom: 2px solid #c87d55;
+  border-bottom: 2px solid #2a9d8f;
   display: inline-block;
 }
 
@@ -127,8 +127,8 @@ body {
 .contact-form textarea {
   width: 100%;
   padding: 0.8rem 1rem;
-  background: #f7f3eb;
-  border: 1px solid #e0d5be;
+  background: #eef6f4;
+  border: 1px solid #c4ddd9;
   border-radius: 6px;
   color: #2c2825;
   font-size: 1rem;
@@ -142,7 +142,7 @@ body {
 .contact-form input:focus,
 .contact-form textarea:focus {
   outline: none;
-  border-color: #c87d55;
+  border-color: #2a9d8f;
   background: #ffffff;
 }
 
@@ -150,10 +150,10 @@ body {
 footer {
   text-align: center;
   padding: 2rem;
-  background: #f4efe6;
+  background: #e8f4f2;
   color: #7a7067;
   font-size: 0.9rem;
-  border-top: 1px solid #e6dec8;
+  border-top: 1px solid #c4ddd9;
 }
 
 /* Mobile Responsive */
