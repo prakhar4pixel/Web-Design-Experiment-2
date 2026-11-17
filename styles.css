@@ -1,4 +1,4 @@
-/* Modern Cool Teal Portfolio Styles */
+/* Warm Beige Portfolio Styles */
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +7,7 @@
 
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  background-color: #f5f9f8;
+  background-color: #f7f1e3;
   color: #2c2825;
   line-height: 1.6;
 }
@@ -18,8 +18,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1.2rem 8%;
-  background: #e8f4f2;
-  border-bottom: 1px solid #c4ddd9;
+  background: #efe4cc;
+  border-bottom: 1px solid #d8c8a4;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -32,7 +32,7 @@ body {
 }
 
 .logo span {
-  color: #2a9d8f;
+  color: #b08968;
 }
 
 .nav-links {
@@ -49,15 +49,15 @@ body {
 }
 
 .nav-links a:hover {
-  color: #2a9d8f;
+  color: #b08968;
 }
 
 /* Hero Section */
 .hero {
   text-align: center;
   padding: 5rem 1rem;
-  background: linear-gradient(180deg, #e8f4f2 0%, #f5f9f8 100%);
-  border-bottom: 1px solid #c4ddd9;
+  background: linear-gradient(180deg, #efe4cc 0%, #f7f1e3 100%);
+  border-bottom: 1px solid #d8c8a4;
 }
 
 .hero h1 {
@@ -67,7 +67,7 @@ body {
 }
 
 .highlight {
-  color: #2a9d8f;
+  color: #b08968;
 }
 
 .hero p {
@@ -79,7 +79,7 @@ body {
 /* Buttons */
 .btn {
   display: inline-block;
-  background: #2a9d8f;
+  background: #b08968;
   color: #ffffff;
   padding: 0.75rem 1.8rem;
   border-radius: 6px;
@@ -91,7 +91,7 @@ body {
 }
 
 .btn:hover {
-  background: #21867a;
+  background: #8a6844;
   color: #ffffff;
   transform: translateY(-2px);
 }
@@ -107,7 +107,7 @@ body {
   font-size: 2rem;
   margin-bottom: 1.5rem;
   color: #2c2825;
-  border-bottom: 2px solid #2a9d8f;
+  border-bottom: 2px solid #b08968;
   display: inline-block;
 }
 
@@ -127,8 +127,8 @@ body {
 .contact-form textarea {
   width: 100%;
   padding: 0.8rem 1rem;
-  background: #eef6f4;
-  border: 1px solid #c4ddd9;
+  background: #fbf6ea;
+  border: 1px solid #d8c8a4;
   border-radius: 6px;
   color: #2c2825;
   font-size: 1rem;
@@ -142,7 +142,7 @@ body {
 .contact-form input:focus,
 .contact-form textarea:focus {
   outline: none;
-  border-color: #2a9d8f;
+  border-color: #b08968;
   background: #ffffff;
 }
 
@@ -150,10 +150,10 @@ body {
 footer {
   text-align: center;
   padding: 2rem;
-  background: #e8f4f2;
+  background: #efe4cc;
   color: #7a7067;
   font-size: 0.9rem;
-  border-top: 1px solid #c4ddd9;
+  border-top: 1px solid #d8c8a4;
 }
 
 /* Mobile Responsive */
@@ -164,5 +164,82 @@ footer {
   }
   .hero h1 {
     font-size: 2rem;
+  }
+}
+
+/* Skills */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-top: 0.5rem;
+}
+
+.skill-chip {
+  background: #fbf6ea;
+  border: 1px solid #b08968;
+  color: #8a6844;
+  padding: 0.45rem 1rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+/* Projects */
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.project-card {
+  background: #fbf6ea;
+  border: 1px solid #d8c8a4;
+  border-radius: 6px;
+  padding: 1.3rem;
+}
+
+.project-card h3 {
+  color: #2c2825;
+  margin-bottom: 0.5rem;
+}
+
+.project-card p {
+  font-size: 0.95rem;
+  margin-bottom: 0.8rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.8rem;
+}
+
+.tags span {
+  background: #ffffff;
+  border: 1px solid #d8c8a4;
+  color: #5c544d;
+  border-radius: 4px;
+  padding: 0.15rem 0.55rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.card-links a {
+  color: #8a6844;
+  font-weight: 600;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.card-links a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
   }
 }
